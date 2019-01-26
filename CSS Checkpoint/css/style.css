@@ -1,0 +1,65 @@
+#go {
+    color: aliceblue;
+    background-image:url(https://qulari.com/wp-content/uploads/2017/10/1_Banana-1024x640.jpg);
+    font-size: 100px ;
+    padding-top: 200px;
+    padding-left: 60px;
+    padding-bottom: 100px;
+    margin: 0px;
+  }
+
+#hi {
+
+  font-size: 50px;
+  color: darkblue;
+  padding-left: 230px;
+  padding-top:60px;
+}
+  
+   span.b{
+    display: inline-block;
+    width:400px;
+    height: 300px;
+    padding-top:30px ;
+    padding-left:30px ;
+    padding-right:30px ;
+    padding-bottom:30px ;
+    border: 5px solid rgb(202, 196, 196);    
+    background-color: rgb(202, 196, 196);
+   }
+
+   span.c{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding-top:30px ;
+    padding-left:30px ;
+    padding-right:30px ;
+    padding-bottom:30px ;
+    border: 5px solid rgb(62,62,62);    
+    background-color: rgb(62, 62, 62);
+   }
+  
+  span.b:hover{
+     border: 5px solid black;
+  }
+
+  span.c:hover{
+    border: 5px solid black;
+ }
+ 
+ 
+ div.a{
+
+  padding-left: 200px;
+  
+   }
+
+
+   div.d{
+
+    padding-left: 200px;
+    padding-bottom: 200px;
+     }
+    
+  
