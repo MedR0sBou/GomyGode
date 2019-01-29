@@ -8,7 +8,34 @@ function underlined() {
     $('#para').css("text-decoration", "underline");
 }
 
-function myFont() {
+$(document).ready(function()
+{
+    $("#b").dblclick(function()
+    {
+        $('#para').css("font-weight", "normal");
+    })
+});
+
+$(document).ready(function()
+{
+    $("#i").dblclick(function()
+    {
+        $('#para').css("font-style", "normal");
+    })
+});
+
+$(document).ready(function()
+{
+    $("#u").dblclick(function()
+    {
+        $('#para').css("text-decoration" , "none");
+    })
+});
+
+
+
+
+ function myFont() {
      
     var a=$('#font').val();
     if (a==="bold"){
@@ -22,6 +49,7 @@ function myFont() {
       underlined();
     }
   }
+
   
   function mysize() {
      
