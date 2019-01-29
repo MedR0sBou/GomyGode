@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="para"> 
+            Un paragraphe est une section de texte en prose vouée au développement d'un point particulier souvent
+            au moyen de plusieurs phrases, dans la continuité du précédent et du suivant.
+            Sur le plan typographique, le début d'un paragraphe est marqué par un léger renfoncement (alinéa) ou par
+             un saut de ligne.
+            Le symbole du paragraphe est §. La fin d'un paragraphe était autrefois indiquée par un pied-de-mouche  
+    </p>
+
+    <button onclick="bold()">Bold</button>
+    <button onclick="italic()">Italic </button>
+    <button onclick="underlined()">Underlined </button>
+
+   
+    <select  id="font" onchange ="myFont()"> 
+        <option value="bold">bold</option>
+        <option value="italic">italic</option>
+        <option value="underlined">underlined</option>
+    </select>
+
+    <select id="size" onchange="mysize()">
+        <option value="15">15</option>
+        <option value="17">17</option>
+        <option value="20">20</option>
+    </select>
+   
+
+    
+</body>
+<script src="js/main.js"></script>
+</html>
