@@ -1,0 +1,32 @@
+ .a{
+
+    width: 500px;
+    height: 800px;
+    float: left;
+    background-color: rgb(198, 236, 223);
+    margin-left: 120px;
+
+   }
+
+
+   .b{
+
+    width: 600px;
+    height: 800px;
+    background-color: rgb(232, 248, 248);
+    float: right;
+    margin-right: 100px;
+    
+   }
+
+
+.container{
+    
+    background-color:royalblue;
+    
+}
+#ahh{
+    padding-left: 200px
+}
+h2{
+    padding-left: 200px}
