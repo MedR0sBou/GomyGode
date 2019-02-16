@@ -1,0 +1,30 @@
+#back{
+
+background-image: url("res/img.gif");
+
+}
+
+
+#perso{
+margin-top: 150px;
+margin-left: 40%;
+
+}
+
+#social{
+margin-top: 280px;
+margin-left: 500px;
+
+}
+
+#name{
+    
+    margin-left: 150px;
+
+}
+
+#para{
+
+margin-left:10px;
+
+}
